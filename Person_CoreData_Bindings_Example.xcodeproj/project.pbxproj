@@ -14,6 +14,7 @@
 		E433BD242027772B00BA1217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E433BD222027772B00BA1217 /* Main.storyboard */; };
 		E433BD302027772B00BA1217 /* Person_CoreData_Bindings_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E433BD2F2027772B00BA1217 /* Person_CoreData_Bindings_ExampleTests.swift */; };
 		E433BD3B2027772B00BA1217 /* Person_CoreData_Bindings_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E433BD3A2027772B00BA1217 /* Person_CoreData_Bindings_ExampleUITests.swift */; };
+		E433BD49202777AD00BA1217 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E433BD48202777AD00BA1217 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E433BD362027772B00BA1217 /* Person_CoreData_Bindings_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Person_CoreData_Bindings_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E433BD3A2027772B00BA1217 /* Person_CoreData_Bindings_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person_CoreData_Bindings_ExampleUITests.swift; sourceTree = "<group>"; };
 		E433BD3C2027772B00BA1217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E433BD48202777AD00BA1217 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		E433BD182027772B00BA1217 /* Person_CoreData_Bindings_Example */ = {
 			isa = PBXGroup;
 			children = (
+				E433BD48202777AD00BA1217 /* DataController.swift */,
 				E433BD192027772B00BA1217 /* AppDelegate.swift */,
 				E433BD1B2027772B00BA1217 /* ViewController.swift */,
 				E433BD202027772B00BA1217 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E433BD1F2027772B00BA1217 /* Person_CoreData_Bindings_Example.xcdatamodeld in Sources */,
+				E433BD49202777AD00BA1217 /* DataController.swift in Sources */,
 				E433BD1C2027772B00BA1217 /* ViewController.swift in Sources */,
 				E433BD1A2027772B00BA1217 /* AppDelegate.swift in Sources */,
 			);
